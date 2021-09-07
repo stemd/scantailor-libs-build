@@ -295,6 +295,12 @@ or [build them from sources](#building-from-sources).
    sudo make install
    ~~~~
 
+If using distro with `apt` package manager, smarter way is:
+   ~~~~
+   sudo checkinstall
+   ~~~~
+That way you can reinstall/deinstall STA from your favorite package manager (G)UI. `sudo make install` is fun, but that is good enough ONLY if you have only one installation of Linux & STA.
+
    >***Note***: you can use `sudo make uninstall` from the build dir to uninstall ScanTailor Advanced later.
 
 ### macOS
