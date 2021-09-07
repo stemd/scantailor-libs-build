@@ -206,11 +206,19 @@ or [build them from sources](#building-from-sources).
    then [build scantailor](#build-scantailor-linux). Developing packages are usually have `-devel` or `-dev` suffix  
 
    Examples:  
-   <details><summary><i>Ubuntu</i></summary>
+   <details><summary><i>Ubuntu 20.04 (old, but still around)</i></summary>
    <code>
-   sudo apt-get install gcc-7 g++-7 cmake libjpeg-dev libpng-dev libtiff5 libtiff5-dev libboost-test1.63-dev libboost-test1.63.0 qtbase5-dev libqt5svg5-dev qttools5-dev qttools5-dev-tools libqt5opengl5-dev libpthread-stubs0-dev
+   sudo apt-get install gcc-7 g++-7 cmake libjpeg-dev libpng-dev libtiff5 libtiff5-dev libboost-test1.67-dev libboost-test1.67.0 qtbase5-dev libqt5svg5-dev qttools5-dev qttools5-dev-tools libqt5opengl5-dev libpthread-stubs0-dev
    </code>
    </details>
+   
+   <details><summary><i>Ubuntu 21.04 & 21.10 (latest & "unstable")</i></summary>
+   <code>
+   sudo apt-get install gcc-7 g++-7 cmake libjpeg-dev libpng-dev libtiff5 libtiff5-dev libboost-test1.71-dev libboost-test1.71.0 qtbase5-dev libqt5svg5-dev qttools5-dev qttools5-dev-tools libqt5opengl5-dev libpthread-stubs0-dev
+   </code>
+   </details>
+   
+   
    <details><summary><i>OpenSUSE</i></summary>
    <code>
    sudo zypper install gcc7 gcc7-c++ cmake libjpeg8-devel libpng16-devel libtiff5 libtiff-devel libboost_test1_66_0 libboost_test1_66_0-devel libqt5-qtbase-devel libqt5-qtsvg-devel libqt5-qttools-devel pthread-stubs-devel
